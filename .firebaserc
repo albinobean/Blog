@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "blog-d34dc": {
+      "hosting": {
+        "Blog": [
+          "blog-d34dc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "blog-d34dc"
+  }
+}

@@ -1,0 +1,11 @@
+.fabContainer {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  &.pageFab {
+    position: fixed;
+  }
+}

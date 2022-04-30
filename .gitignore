@@ -49,3 +49,8 @@ desktop.ini
 src/environments/**
 src/environments/environment.prod.ts
 src/environments/environment.ts
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json

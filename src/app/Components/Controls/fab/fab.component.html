@@ -1,0 +1,6 @@
+<div class="fabContainer" style.width="{{size}}px" style.height="{{size}}px" style="background-color: hsl(var(--primary-bg)); color:var(--primary-text);"
+  style.fontSize="{{fontSize}}px" style.right="{{size * .5}}px" style.bottom="{{size * .5}}px"
+  [class.pageFab]="pageFab" [title]="title || ''" (click)="click($event)">
+  <fa-icon [icon]="icon" *ngIf="icon"></fa-icon>
+  <!-- <i class="fa-solid fa-{{iconName}}" data-fabValue="mainFab"></i> -->
+</div>
